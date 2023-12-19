@@ -1,0 +1,91 @@
+@import url('https://fonts.cdnfonts.com/css/belly');
+@import url(https://db.onlinewebfonts.com/c/f05f148ec6596f0b75375fa566aaf1fe?family=Bely+Display+W00+Regular);
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Montserrat&family=Plus+Jakarta+Sans:wght@500&family=Rakkas&display=swap');
+
+body{
+    font: 16px/28px;
+}
+
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.header{
+    padding: 20px;
+}
+
+.header .judul{
+    font-weight: bold;
+    font-size: 40px;
+    font-family:  "Bely Display W00 Regular";
+    color: #17223b;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+.header a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.header a:hover{
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+}
+
+.hero{
+    height: 500px;
+    background-image: url(https://pbs.twimg.com/media/GBmMjNqacAAMtXB?format=jpg&name=4096x4096);
+    background-size: cover;
+    border-top: 10px solid #b700ff ;
+    border-bottom: 10px solid #b700ff ;
+}
+
+.content{
+    padding: 20px;
+}
+
+.content .judul{
+    font-family: 'Montserrat', sans-serif;
+    font-style: oblique;
+}
+
+.content h2{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.content .penulis{
+    margin: -20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.content .penulis a{
+    text-decoration: none;
+    color: purple;
+}
+
+.content p{
+    font-size: 18px;
+}
+
+.footer .madein{
+    font-size: 30px;
+}
+
+.footer{
+    text-align: center;
+}
+
+/* Maxwidth */
